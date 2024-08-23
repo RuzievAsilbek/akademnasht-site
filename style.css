@@ -12,6 +12,7 @@ text-decoration: none;
 color: #000;
 }
 
+ /* MAIN-LINK */
 .main-link {
   font-size: 13px;
   line-height: 15px;
@@ -19,7 +20,7 @@ color: #000;
   background-color: #ff7500;
   text-decoration: none;
 }
-
+/* HERO */
 .hero {
   background-color: #252420;
   color: #fff;
@@ -54,6 +55,7 @@ color: #000;
   color: #fff;
 }
 
+/* FEATURES */
 .features-heading {
   width: 440px;
   font-size: 72px;
@@ -61,6 +63,7 @@ color: #000;
   letter-spacing: 0.5px;
 }
 
+/* FEATURE */
 .feature {
   width: 340px;
 }
@@ -84,6 +87,7 @@ color: #000;
   letter-spacing: 0.5px;
 }
 
+/* PROMO */
 .promo {
   background-color: #252420;
   color: #fff;
@@ -113,6 +117,7 @@ color: #000;
   object-fit: cover;
 }
 
+/* SITE-FOOTER */
 .site-footer {
   background-color: #f8f8f8;
 }
