@@ -12,6 +12,9 @@ body {
 .site-header {
   background-color: #fff;
   display: flex;
+  border-top: 5px solid #ff7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
   align-items: center;
   justify-content: space-between;
 }
@@ -23,6 +26,7 @@ body {
 
 .sitenav-list {
   list-style: none;
+  padding: 0;
   display: flex;
 }
 
@@ -47,6 +51,10 @@ transition: color 0.4s ease;
 
  /* MAIN-LINK */
 .main-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: bold;
   font-size: 13px;
   line-height: 15px;
   color: #fff;
@@ -66,6 +74,8 @@ opacity: 0.8;
 /* HERO */
 .hero {
   display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
   align-items: center;
   justify-content: space-between;
   background-color: #252420;
@@ -79,11 +89,13 @@ opacity: 0.8;
 .orange-line {
   width: 80px;
   height: 3px;
+  border: none;
   background-color: #ff7500;
 }
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 .hero-heading {
@@ -96,6 +108,11 @@ opacity: 0.8;
 
 
 /* FEATURES */
+.features {
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
+
 .features-heading {
   width: 440px;
   font-size: 72px;
@@ -105,6 +122,7 @@ opacity: 0.8;
 
 .features-list {
   display: flex;
+  padding: 0;
   list-style: none;
   justify-content: space-between;
 }
@@ -115,9 +133,13 @@ opacity: 0.8;
 }
 
 .feature-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
+  border-radius: 50%;
 }
 
 .feature-title {
@@ -132,6 +154,7 @@ opacity: 0.8;
   justify-content: space-between;
   align-items: center;
   background-color: #252420;
+  border-radius: 12px;
   color: #fff;
 }
 
@@ -153,11 +176,14 @@ opacity: 0.8;
 .promo-img {
   width: 440px;
   height: 440px;
+  border-radius: 12px;
   object-fit: cover;
 }
 
 /* SITE-FOOTER */
 .site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #f8f8f8;
 }
 
@@ -181,6 +207,7 @@ opacity: 0.8;
 
 .site-footer-socials {
   display: flex;
+  padding: 0;
   align-items: center;
 }
 
@@ -202,6 +229,7 @@ opacity: 0.8;
 
 .site-footer-divider {
   background-color: rgba(37, 36, 32, 0.5);
+  padding: 0;
   height: 2px;
 }
 
@@ -218,6 +246,7 @@ opacity: 0.8;
 
 .site-footer-links {
   width: 224px;
+  padding: 0;
   line-height: 19px;
 }
 
